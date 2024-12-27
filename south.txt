@@ -1,0 +1,42 @@
+
+INDHUSREE@LAPTOP-F206FGVL MINGW64 ~/desktop/git98 (main)
+$ cd desktop
+bash: cd: desktop: No such file or directory
+
+INDHUSREE@LAPTOP-F206FGVL MINGW64 ~/desktop/git98 (main)
+$ cd git98
+bash: cd: git98: No such file or directory
+
+INDHUSREE@LAPTOP-F206FGVL MINGW64 ~/desktop/git98 (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/INDHUSREE/Desktop/git98/.git/
+
+INDHUSREE@LAPTOP-F206FGVL MINGW64 ~/desktop/git98 (main)
+$ git add .
+
+INDHUSREE@LAPTOP-F206FGVL MINGW64 ~/desktop/git98 (main)
+$ git commit -m "first commit"
+[main (root-commit) 22e5103] first commit
+ 1 file changed, 14 insertions(+)
+ create mode 100644 sele12.js
+
+INDHUSREE@LAPTOP-F206FGVL MINGW64 ~/desktop/git98 (main)
+$ git branch -M main
+
+INDHUSREE@LAPTOP-F206FGVL MINGW64 ~/desktop/git98 (main)
+$ git remote add origin https://github.com/sriritu03/mil.git
+error: remote origin already exists.
+
+INDHUSREE@LAPTOP-F206FGVL MINGW64 ~/desktop/git98 (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 460 bytes | 460.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/sriritu03/mil.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+INDHUSREE@LAPTOP-F206FGVL MINGW64 ~/desktop/git98 (main)
